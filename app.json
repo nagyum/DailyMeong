@@ -1,44 +1,23 @@
 {
   "expo": {
-    "name": "dailymeong3",
-    "slug": "dailymeong3",
+    "name": "runApp",
+    "slug": "runApp",
+    "platforms": ["ios", "android", "web"],
     "version": "1.0.0",
-    "orientation": "portrait",
     "icon": "./assets/icon.png",
+    "orientation": "portrait",
     "splash": {
-      "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ffffff",
+ "image": "./assets/splash3.png"
     },
+    
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true,
-      "infoPlist": {
-        "UIBackgroundModes": [
-          "location",
-          "fetch"
-        ],
-        "NSLocationAlwaysAndWhenInUseUsageDescription": "Allow Expo experiences to use your location" 
-      }
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      },
-      "config": {
-        "googleMaps": {
-          "apiKey": "AIzaSyAx55jttzKP02pGvCai2YiiLznL5ZKgwPU"
-        }
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+      "supportsTablet": true
     }
   }
 }
